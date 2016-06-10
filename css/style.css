@@ -1,0 +1,45 @@
+.autocomplete {
+    background: #676767;
+    /*width: 400px;*/
+    display: inline-block;
+    position: relative;
+}
+
+.autocomplete input {
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    border: 0px solid #676;
+    background: #eee;
+    /*height: 35px;*/
+    position: relative;
+    padding: 0 5px;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete .popup {
+    position: absolute;
+    /*top: 35px;*/
+    left: 0;
+    right: 0;
+    display: block;
+    background: white;
+    border-left: 2px solid #eee;
+    border-right: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    box-shadow: 0px 1px 1px #a1a1a1;
+}
+
+.autocomplete .popup div {
+    display: block;
+    background: white;
+    padding: 2px 5px;
+    text-decoration: none;
+    cursor: default;
+    color: #2f3129;
+}
+
+.autocomplete .popup div:hover {
+    background: #eee;
+}
